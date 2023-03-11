@@ -1,0 +1,14 @@
+server:
+  port: 10023
+  servlet:
+    context-path: /gpt
+
+wx:
+  mp:
+    appId: "你的公众号appId"
+    secret: "你的公众号secret"
+    token:  "你的公众号token"
+    aesKey: "你的公众号aesKey"
+
+openai:
+  apiKey: "你的openaiapiKey"
