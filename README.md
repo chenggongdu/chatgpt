@@ -1,5 +1,6 @@
 # chatgpt
 java实现微信公众号接入chatgpt
+java实现微信公众号玩转chatgpt
 
 接入步骤:
 1. 申请一个公众号，订阅号即可，不需要认证。
