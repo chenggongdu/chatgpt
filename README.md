@@ -11,4 +11,4 @@ java实现微信公众号玩转chatgpt
 
 体验公众号
 
-[![ppKnLrt.jpg](https://s1.ax1x.com/2023/03/11/ppKnLrt.jpg)](https://imgse.com/i/ppKnLrt)
+[![ppKnLrt.jpg](https://i.imgtg.com/2023/03/12/fAp0B.jpg)](https://i.imgtg.com/2023/03/12/fAp0B.jpg)
