@@ -36,7 +36,17 @@
         <dependency>
             <groupId>com.unfbx</groupId>
             <artifactId>chatgpt-java</artifactId>
-            <version>1.0.4</version>
+            <version>1.0.5</version>
+            <exclusions>
+                <exclusion>
+                    <artifactId>lombok</artifactId>
+                    <groupId>org.projectlombok</groupId>
+                </exclusion>
+                <exclusion>
+                    <artifactId>slf4j-simple</artifactId>
+                    <groupId>org.slf4j</groupId>
+                </exclusion>
+            </exclusions>
         </dependency>
 
         <!--springboot-->
@@ -100,7 +110,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>2.3.7.RELEASE</version>
                 <configuration>
-                    <mainClass>com.niceloo.ChatGptApplication</mainClass>
+                    <mainClass>com.dcg.ChatGptApplication</mainClass>
                     <excludes>
                         <exclude>
                             <groupId>org.springframework.boot</groupId>
