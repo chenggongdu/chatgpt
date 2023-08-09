@@ -5,10 +5,11 @@ server:
 
 wx:
   mp:
-    appId: "你的公众号appId"
-    secret: "你的公众号secret"
-    token:  "你的公众号token"
-    aesKey: "你的公众号aesKey"
+    appId: wx8ab124a12e48b4a1
+    secret: 30187c22f584369cfbb572c8c409bb8a
+    token: duchina1023
+    aesKey: uC1pjOIVVKsnNEtEc11Z3rCCZP1MrbLM91h0puQCyGz
 
 openai:
-  apiKey: "你的openaiapiKey"
+  apiKey: sk-f74h42wycNnxwpdtA7BfCe77DcE9741391787690960
+  apiHost: https://www.wushuangai.com/

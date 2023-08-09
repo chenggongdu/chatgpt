@@ -21,7 +21,7 @@ public class SubscribeHandler extends AbstractHandler {
         log.info("新关注用户 OPENID: " + wxMessage.getFromUser() + "，事件：" + wxMessage.getEventKey());
         String appid = WxMpConfigStorageHolder.get();
         log.info("appid:{}", appid);
-        return WxMpXmlOutMessage.TEXT().content("谢谢关注！").fromUser(wxMessage.getToUser())
+        return WxMpXmlOutMessage.TEXT().content("谢谢关注！现在你可以与GPT对话了哈~").fromUser(wxMessage.getToUser())
                 .toUser(wxMessage.getFromUser()).build();
     }
 }
